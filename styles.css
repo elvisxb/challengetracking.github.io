@@ -26,9 +26,8 @@ body {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   text-align: left;
   font-size: 14px;
-  color: #303030; 
-  max-width:100%;
-}
+  max-width: 100%;
+  color: #303030; }
 
 .container {
   max-width:1000px;
@@ -45,11 +44,21 @@ body {
     .nav .container object {
       width: 4.5em;
       padding: 1.2em 0.5em; }
-    .nav .container .weeks {
+    .nav .container .weeks-1,
+    .nav .container .weeks-2,
+    .nav .container .weeks-3,
+    .nav .container .weeks-4,
+    .nav .container .weeks-5,
+    .nav .container .weeks-6,
+    .nav .container .weeks-7,
+    .nav .container .weeks-8,
+    .nav .container .weeks-9,
+    .nav .container .weeks-10 {
       text-transform: uppercase;
       letter-spacing: 0.1em;
       padding: 1em 1.5em;
-      color: #ff4c4c;    }
+      color: #ff4c4c;
+      cursor: pointer;}
     .nav .container .menu-button-1 {
       text-transform: uppercase;
       letter-spacing: 0.1em;
