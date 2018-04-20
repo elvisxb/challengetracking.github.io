@@ -26,7 +26,9 @@ body {
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   text-align: left;
   font-size: 14px;
-  color: #303030; }
+  color: #303030; 
+  max-width:100%;
+}
 
 .container {
   max-width:1000px;
