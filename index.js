@@ -1,8 +1,8 @@
 $('.nav-menu-1').on('click', () => {
-  $('.nav-menu-1').toggle();
+  $('.nav-menu-1').hide('slow');
 });
 $('.nav-menu-2').on('click', () => {
-  $('.nav-menu-2').toggle();
+  $('.nav-menu-2').hide();
 });
 $('.nav-menu-3').on('click', () => {
   $('.nav-menu-3').toggle();
@@ -209,7 +209,7 @@ $('.nav-menu-70').on('click', () => {
    $('.nav-menu-70').toggle();
  });
  $('.weeks-1').on('click', () => {
-    $('.nav-menu-1, .nav-menu-2, .nav-menu-3, .nav-menu-4, .nav-menu-5, .nav-menu-6, .nav-menu-7').toggle();
+    $('.nav-menu-1, .nav-menu-2, .nav-menu-3, .nav-menu-4, .nav-menu-5, .nav-menu-6, .nav-menu-7').show();
 });
 $('.weeks-2').on('click', () => {
    $('.nav-menu-8, .nav-menu-9, .nav-menu-10, .nav-menu-11, .nav-menu-12, .nav-menu-13, .nav-menu-14').toggle();
