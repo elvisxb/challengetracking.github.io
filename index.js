@@ -7,7 +7,7 @@ $('.nav-menu-2').on('click', () => {
   $('.nav-menu-2').slideUp('fast');
 });
 $('.nav-menu-3').on('click', () => {
-  $('.nav-menu-3').slideUp('fast);
+  $('.nav-menu-3').slideUp('fast');
 });
 $('.nav-menu-4').on('click', () => {
   $('.nav-menu-4').toggle();
