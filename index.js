@@ -1,3 +1,5 @@
+$(document).ready(() => {
+
 $('.nav-menu-1').on('click', () => {
   $('.nav-menu-1').hide('slow');
 });
@@ -230,11 +232,12 @@ $('.weeks-7').on('click', () => {
    $('.nav-menu-43, .nav-menu-44, .nav-menu-45, .nav-menu-46, .nav-menu-47, .nav-menu-48, .nav-menu-49').toggle();
 });
 $('.weeks-8').on('click', () => {
-   $('.nav-menu-50, .nav-menu-51, .nav-menu-52, .nav-menu-53, .nav-menu-54, .nav-menu-55, .nav-menu-56').toggle();
+   $('.nav-menu-50, .nav);-menu-51, .nav-menu-52, .nav-menu-53, .nav-menu-54, .nav-menu-55, .nav-menu-56').toggle();
 });
 $('.weeks-9').on('click', () => {
    $('.nav-menu-57, .nav-menu-58, .nav-menu-59, .nav-menu-60, .nav-menu-61, .nav-menu-62, .nav-menu-63').toggle();
 });
 $('.weeks-10').on('click', () => {
    $('.nav-menu-64, .nav-menu-65, .nav-menu-66, .nav-menu-67, .nav-menu-68, .nav-menu-69, .nav-menu-70').toggle();
+});
 });
