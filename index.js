@@ -39,5 +39,3 @@ $('.weeks-8').on('click', () => {
 $('.weeks-9').on('click', () => {
    $('.set-9').children().slideDown('fast');
 });
-
-});
