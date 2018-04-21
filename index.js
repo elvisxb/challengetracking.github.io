@@ -1,13 +1,13 @@
 $(document).ready(() => {
 
 $('.nav-menu-1').on('click', () => {
-  $('.nav-menu-1').hide('slow');
+  $('.nav-menu-1').slideUp('fast');
 });
 $('.nav-menu-2').on('click', () => {
-  $('.nav-menu-2').hide();
+  $('.nav-menu-2').slideUp('fast');
 });
 $('.nav-menu-3').on('click', () => {
-  $('.nav-menu-3').toggle();
+  $('.nav-menu-3').slideUp('fast);
 });
 $('.nav-menu-4').on('click', () => {
   $('.nav-menu-4').toggle();
@@ -211,33 +211,33 @@ $('.nav-menu-70').on('click', () => {
    $('.nav-menu-70').toggle();
  });
  $('.weeks-1').on('click', () => {
-    $('.nav-menu-1, .nav-menu-2, .nav-menu-3, .nav-menu-4, .nav-menu-5, .nav-menu-6, .nav-menu-7').show();
+    $('.nav-menu-1, .nav-menu-2, .nav-menu-3, .nav-menu-4, .nav-menu-5, .nav-menu-6, .nav-menu-7').slideDown(fast);
 });
 $('.weeks-2').on('click', () => {
-   $('.nav-menu-8, .nav-menu-9, .nav-menu-10, .nav-menu-11, .nav-menu-12, .nav-menu-13, .nav-menu-14').toggle();
+   $('.nav-menu-8, .nav-menu-9, .nav-menu-10, .nav-menu-11, .nav-menu-12, .nav-menu-13, .nav-menu-14').slideDown(fast);
 });
 $('.weeks-3').on('click', () => {
-  $('.nav-menu-15, .nav-menu-16, .nav-menu-17, .nav-menu-18, .nav-menu-19, .nav-menu-20, .nav-menu-21').toggle();
+  $('.nav-menu-15, .nav-menu-16, .nav-menu-17, .nav-menu-18, .nav-menu-19, .nav-menu-20, .nav-menu-21').slideDown(fast);
 });
 $('.weeks-4').on('click', () => {
-   $('.nav-menu-22, .nav-menu-23, .nav-menu-24, .nav-menu-25, .nav-menu-26, .nav-menu-27, .nav-menu-28').toggle();
+   $('.nav-menu-22, .nav-menu-23, .nav-menu-24, .nav-menu-25, .nav-menu-26, .nav-menu-27, .nav-menu-28').slideDown(fast);
 });
 $('.weeks-5').on('click', () => {
-   $('.nav-menu-29, .nav-menu-30, .nav-menu-31, .nav-menu-32, .nav-menu-33, .nav-menu-34, .nav-menu-35').toggle();
+   $('.nav-menu-29, .nav-menu-30, .nav-menu-31, .nav-menu-32, .nav-menu-33, .nav-menu-34, .nav-menu-35').slideDown(fast);
 });
 $('.weeks-6').on('click', () => {
-  $('.nav-menu-36, .nav-menu-37, .nav-menu-38, .nav-menu-39, .nav-menu-40, .nav-menu-41, .nav-menu-42').toggle();
+  $('.nav-menu-36, .nav-menu-37, .nav-menu-38, .nav-menu-39, .nav-menu-40, .nav-menu-41, .nav-menu-42').slideDown(fast);
 });
 $('.weeks-7').on('click', () => {
-   $('.nav-menu-43, .nav-menu-44, .nav-menu-45, .nav-menu-46, .nav-menu-47, .nav-menu-48, .nav-menu-49').toggle();
+   $('.nav-menu-43, .nav-menu-44, .nav-menu-45, .nav-menu-46, .nav-menu-47, .nav-menu-48, .nav-menu-49').slideDown(fast);
 });
 $('.weeks-8').on('click', () => {
-   $('.nav-menu-50, .nav);-menu-51, .nav-menu-52, .nav-menu-53, .nav-menu-54, .nav-menu-55, .nav-menu-56').toggle();
+   $('.nav-menu-50, .nav);-menu-51, .nav-menu-52, .nav-menu-53, .nav-menu-54, .nav-menu-55, .nav-menu-56').slideDown(fast;
 });
 $('.weeks-9').on('click', () => {
-   $('.nav-menu-57, .nav-menu-58, .nav-menu-59, .nav-menu-60, .nav-menu-61, .nav-menu-62, .nav-menu-63').toggle();
+   $('.nav-menu-57, .nav-menu-58, .nav-menu-59, .nav-menu-60, .nav-menu-61, .nav-menu-62, .nav-menu-63').slideDown(fast;
 });
 $('.weeks-10').on('click', () => {
-   $('.nav-menu-64, .nav-menu-65, .nav-menu-66, .nav-menu-67, .nav-menu-68, .nav-menu-69, .nav-menu-70').toggle();
+   $('.nav-menu-64, .nav-menu-65, .nav-menu-66, .nav-menu-67, .nav-menu-68, .nav-menu-69, .nav-menu-70').slideDown(fast);
 });
 });
