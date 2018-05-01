@@ -1,99 +1,66 @@
-* {
-  margin: 0;
-  padding: 0;
-  transition: 0.1s; }
+::-webkit-scrollbar {
+  display: none;
+}
 
-header {
-  text-align: center;
+
+
+.center-col {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="36" height="72" viewBox="0 0 36 72"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+
+li:hover {
+  background-color: #2e2e2e;
+}
+
+.header {
+  background-image: url('https://cdn2.unrealengine.com/Fortnite%2Fblog%2Ffortnite-battle-royale-goes-free%2FOutlook_Header-1903x480-947f24ac4e76d3301e380f316cce091a91ac7ae8.jpg');
+  color: white;
+  font-family: roboto;
+  font-size: 42px;
+  padding: 150px;
+  font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 1.5em;
-  font-size: 26px;
-  font-weight: 700;
+}
+
+h1 {
+  color: #9C27B0;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 footer {
-  text-align: right;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 1em 3em;
-  font-size: 12;
+  padding: 15px;
 }
-
-.hidden {
-  display: none !important;
-}
-
-body {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
-  text-align: left;
-  font-size: 14px;
-  max-width: 100%;
-  color: #303030; }
 
 .container {
-  max-width:1000px;
-  margin: 0 auto;
+  margin: auto auto;
 }
 
-.nav {
-  background-color: #303030;
-  color: #EFEFEF; }
-  .nav .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    .nav .container object {
-      width: 4.5em;
-      padding: 1.2em 0.5em; }
-    .nav .container .weeks-1,
-    .nav .container .weeks-2,
-    .nav .container .weeks-3,
-    .nav .container .weeks-4,
-    .nav .container .weeks-5,
-    .nav .container .weeks-6,
-    .nav .container .weeks-7,
-    .nav .container .weeks-8,
-    .nav .container .weeks-9,
-    .nav .container .weeks-10 {
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      padding: 1em 1.5em;
-      color: #ff4c4c;
-      cursor: pointer;}
-    .nav .container .menu-button-1 {
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      padding: 1em 1.5em;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      cursor: pointer; }
+ul {
+  padding: 15px;
+  list-style: none;
+  background: #262626;
+  color: #e8e8e8;
+}
 
+li {
+  cursor: pointer;
+  padding: 0.5em 3em;
+}
 
+li + li {
+  border-top: 1px solid #ff6347;
+}
 
-.nav-menu {
-        cursor: pointer;
-        background-color: #696969;
-        color: #EFEFEF;
-        display: flex;
-        justify-content: center; }
-        .nav-menu .container {
-          padding: 1em;
-          display: flex; }
-          .nav-menu .container ul {
-              list-style: none; }
-            .nav-menu .container ul li {
-              padding: 0.25em 2em;
-              border-bottom: 1px;
-              border-color: black }
-              .nav-menu .container ul li:first-child {
-                text-transform: uppercase;
-                color: #00FF7F;
-                letter-spacing: 0.05em;}
+.right{
+  text-align: right;
+}
 
-
-.odd {
-    background-color: #535353;
-  }
+.weeks {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  color: #daa520;
+}
